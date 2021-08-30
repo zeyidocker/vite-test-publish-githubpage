@@ -33,7 +33,7 @@ jobs:
       - name: Install & Build # 執行指令
         run: |
           npm install
-          npm run buildd 
+          npm run build
           
       # Runs a single command using the runners shell
       - name: Deploy
